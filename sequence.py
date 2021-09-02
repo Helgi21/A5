@@ -5,5 +5,5 @@ base = [1,2,3]
 for i in range(3, n):
     base.append(sum(base[-3:]))
 
-print(base)
-        
+for i in base:
+    print(i)
